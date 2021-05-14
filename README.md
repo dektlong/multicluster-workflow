@@ -1,5 +1,4 @@
-# Accelerator to create an AppStack supply-chain for operating data serices
+# Accelerator for operating data services
 
-Application and services k8s boiler-plate configs
-
-Support both kuberentes and tanzu application service
+* Help create an AppStack supply-chain for managing data service exposed to developers 
+* Application and services boiler-plate configs
