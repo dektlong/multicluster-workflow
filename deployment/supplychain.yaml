@@ -1,1 +1,14 @@
-TBC
+# this is a mockup file to illustrate future AppStack concepts 
+apiVersion: experimental.kontinue.io/v1
+kind: Workload
+metadata:
+  name: data-services-supplychain
+  labels:
+    app.kubernetes.io/name: data-services-supplychain
+    app.tanzu.vmware.com/workload-type: supplychain
+  spec:
+    components:
+      -name: opinion-data-service-template-provider
+        templateRef:
+          kind: OpinionTemplate
+          name: onlinestore-data-services
