@@ -1,24 +1,16 @@
 command:
   name: new
-  description: Create a new microservice for online Stores
+  description: Create a new data service for online Stores
   options:
-    - name: pipeline-steps
-      description:  sso
+    - name: observability
+      description:  observability integration
       dataType: string
       defaultValue: yes
-      inputType: checkbox    #multiple options
+      inputType: checkbox   
       choices:
         project: yes
         internal: no
-    - name: target
-      description:  keys
-      dataType: string
-      #defaultValue: functionality
-      inputType: select    #single options
-      choices:
-        access-level: a
-        functionality: b
-        on-off-platform: b
+
 #
 
 sources:
